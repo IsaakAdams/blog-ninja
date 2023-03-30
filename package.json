@@ -1,8 +1,16 @@
 {
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
   }
 }
